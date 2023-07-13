@@ -8,6 +8,11 @@ packages = [{include = "lh_cd"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+plotly = "^5.15.0"
+ipykernel = "^6.24.0"
+sklearn = "^0.0.post5"
+catboost = "^1.2"
+xgboost = "^1.7.6"
 
 
 [build-system]
